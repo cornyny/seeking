@@ -16,7 +16,7 @@ class Solution {
             if(answers[i] == p2[i%8]) answer[1]++;
             if(answers[i] == p3[i%10]) answer[2]++;
         }
-        
+        // git 궁금
         max = Math.max(answer[0], Math.max(answer[1],answer[2]));
         
         if(max==0) {
